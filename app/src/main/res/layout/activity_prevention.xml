@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preventionActivity">
+
+    <ImageView
+        android:id="@+id/prevention6"
+        android:src="@drawable/prevention6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+
+
+    <ImageView
+        android:id="@+id/prevention5"
+        android:src="@drawable/prevention5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/prevention4"
+        android:src="@drawable/prevention4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/prevention3"
+        android:src="@drawable/prevention3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/prevention2"
+        android:src="@drawable/prevention2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/prevention1"
+        android:src="@drawable/prevention1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+    <Button
+        android:id="@+id/backPreventionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
+
+        />
+</FrameLayout>

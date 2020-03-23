@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0"
+    android:background="@drawable/hospital2"
+    tools:context=".symtomActivity">
+
+   <TableRow
+      android:layout_marginTop="10dp"
+       >
+       <TextView
+           android:layout_span="2"
+           android:layout_gravity="center_horizontal"
+           android:text="@string/text2"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:textColor="@color/colorBlue"
+           android:paddingRight="10dp"
+           android:paddingLeft="10dp"
+           />
+
+   </TableRow>
+    <TableRow
+        android:layout_marginTop="120dp"
+        android:background="@color/colorWhite"
+        >
+        <TextView
+            android:text="Day"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlue"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+            android:paddingLeft="30dp"
+
+            />
+        <TextView
+            android:text="Symptoms"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlue"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+            android:paddingLeft="30dp"
+
+            />
+    </TableRow>
+<TableRow
+    android:background="@color/colorWhite"
+    >
+    <TextView
+        android:text="1st-3rd"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlue"
+        android:textSize="20sp"
+        android:layout_height="30dp"
+        android:paddingLeft="20dp"
+
+        />
+    <TextView
+        android:text="Fever,Slight pain in neck"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlue"
+        android:textSize="20sp"
+        android:layout_height="30dp"
+        />
+</TableRow>
+    <TableRow
+        android:background="@color/colorWhite"
+        >
+        <TextView
+            android:text="4th"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlue"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+            android:paddingLeft="30dp"
+
+            />
+        <TextView
+            android:text="Heavering Voice,Headache"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlue"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+
+
+<TableRow
+android:background="@color/colorWhite"
+    >
+<TextView
+    android:text="5th"
+    android:textStyle="bold"
+    android:textColor="@color/colorBlue"
+    android:textSize="20sp"
+    android:layout_height="30dp"
+    android:paddingLeft="30dp"
+
+    />
+<TextView
+    android:text="Laziness,Dry cough,Pain"
+    android:textStyle="bold"
+    android:textColor="@color/colorBlue"
+    android:textSize="20sp"
+    android:layout_height="30dp"
+
+    />
+</TableRow>
+    <TableRow
+        android:background="@color/colorWhite"
+        >
+        <TextView
+            android:text="6th"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlue"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+            android:paddingLeft="30dp"
+
+            />
+        <TextView
+            android:text="Breathing problem,Vomit"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlue"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorWhite"
+        >
+        <TextView
+            android:text="7th"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlue"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+            android:paddingLeft="30dp"
+
+            />
+        <TextView
+            android:text="Constipation,Vomit"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlue"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text3"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
+        android:background="@color/colorWhite"
+
+        />
+
+    <Button
+        android:id="@+id/symptomButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Next"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorBlue"
+
+        />
+    <Button
+        android:id="@+id/prevButton"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+
+        />
+
+</TableLayout>

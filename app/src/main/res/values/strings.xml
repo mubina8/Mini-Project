@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mini-Project</string>
+    <string name="text">Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.
+        The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell. \n \n Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.\n\nRecommended measures to prevent infection include frequent hand washing, social distancing (maintaining distance from others), and keeping hands away from the face.The use of masks is recommended for those who suspect they have the virus and their caregivers, but not the general public.There is no vaccine or specific antiviral treatment for COVID-19. Management involves treatment of symptoms, supportive care, isolation, and experimental measures.</string>
+    <string name="text2">Symptoms</string>
+    <string name="text3">If symptoms remain same on 8th day\nYou should consult a doctor</string>
+     <string name="text4">To help stop the spread of coronavirus (COVID-19) you may need to either restrict your movements or self-isolate.</string>
+    <string name="text5">Self-isolation means staying indoors and completely avoiding contact with other people.</string>
+    <string name="text6">If you are well, but you have been in close contact with a case of coronavirus you will need to restrict your movements.</string>
+    <string name="text7">Most people with coronavirus will only have mild symptoms and will get well within weeks. Even though the symptoms are mild, you can still spread the virus to others</string>
+</resources>

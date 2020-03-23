@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngloginin"
+    tools:context=".HealthTipsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_x="158dp"
+        android:layout_y="26dp"
+        android:text="Advice"
+        android:textColor="@color/colorBlue"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_x="78dp"
+        android:layout_y="79dp"
+        android:text="for affected people"
+        android:textColor="@color/colorBlue"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="137dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/colorBlue"
+        android:justificationMode="inter_word"
+        android:text="@string/text4"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="231dp"
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:textColor="@color/colorBlue"
+        android:text="@string/text5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="343dp"
+        android:textColor="@color/colorBlue"
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:text="@string/text6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="459dp"
+        android:textColor="@color/colorBlue"
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:text="@string/text7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/backId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+</AbsoluteLayout>
